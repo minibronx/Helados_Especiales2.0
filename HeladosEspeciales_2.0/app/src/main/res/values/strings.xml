@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Helados Especiales</string>
+    <string name="ingredientes">
+                INGREDIENTES:\n
+                1 1/2 tazas de yogur griego natural, sin sabor y sin grasa,\n
+                3 cucharadas de mermelada de fresa sin semillas,\n
+                1/2 taza de Leche Condensada Azucarada\n
+                LA LECHERA de NESTLÉ o de Leche Condensada Azucarada\n
+                LA LECHERA de NESTLÉ (botella exprimible),\n
+                1 cucharadita de ralladura de cáscara de limón,\n
+                1 1/4 tazas de cereal de hojuelas de maíz triturado,\n
+                Fresas en rodajas.</string>
+    <string name="preaparacion">
+        PREPARACIÓN:\n
+        COMBINA 1 taza de yogur y mermelada en un\n
+        tazón pequeño y mezcla hasta que esté bien\m
+        incorporado. En otro tazon separado,\n
+         mezcla la leche condensada azucarada, \n
+        la ½ taza de yogur restante y\n
+         la ralladura de limón.\n\n
+        DIVIDE la mezcla de yogur y mermelada\n
+        uniformemente en 4 \n
+        copas de champán (o vasos estrechos). \n
+        Cubre cada una con ¼ \n
+        taza de hojuelas de maíz trituradas. Cubre cada\n
+        una con ¼ taza de la mezcla de leche condensada\n
+        azucarada.\n\n
+        CUBRE cada parfait con hojuelas de maíz trituradas\n
+         restantes y una fresa en rodajas. Sirva inmediatamente.\n\n
+        CONSEJO PARA SERVIR: Espolvorea cada parfait con \n
+        aproximadamente 1 cucharadita de ABUELITA de \n
+        NESTLÉ Granulado Sabor Chocolate o tableta de \n
+        Chocolate ABUELITA de NESTLÉ rallado.
+    </string>
+</resources>

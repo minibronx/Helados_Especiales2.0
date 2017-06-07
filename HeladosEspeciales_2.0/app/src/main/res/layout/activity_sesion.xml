@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_sesion"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.app.erick.heladosespeciales.sesion">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+            <TextView
+                android:id="@+id/id_helados"
+                android:text="Helados Especiales"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:textAlignment="center" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ic_cliente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_usuario"/>
+
+            <EditText
+                android:id="@+id/id_usuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="15"
+                android:inputType="textAutoComplete"
+                android:gravity="center"
+                android:hint="Nombre de usuario"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/ic_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_password"/>
+
+            <EditText
+                android:id="@+id/id_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLength="15"
+                android:inputType="textPassword"
+                android:gravity="center"
+                android:hint="Contraseña"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_marginTop="25dp"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:textSize="15dp"
+                android:theme="@style/boton"
+                android:text="Iniciar Sesion"
+                android:drawableTop= "@drawable/ic_inicio_sesion"
+                android:onClick="Helados"/>
+            <Button
+                android:layout_marginTop="25dp"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:textSize="15dp"
+                android:theme="@style/boton"
+                android:text="Registrar"
+                android:onClick="Registro"
+                android:drawableTop= "@drawable/ic_registrar"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center">
+
+            <Button
+                android:layout_marginTop="25dp"
+                android:layout_width="150dp"
+                android:layout_height="70dp"
+                android:textSize="15dp"
+                android:onClick="Salir"
+                android:theme="@style/boton"
+                android:text="Salir"
+                android:drawableTop= "@drawable/ic_salir"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
